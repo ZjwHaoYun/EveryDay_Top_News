@@ -1,5 +1,8 @@
 import math
 from urllib.parse import urljoin
+from pyquery import PyQuery as pq
+from typing import List, Dict, Any
+import re
 def parse_mcpmarket(data):
     data = data['data']
     result = []
@@ -249,11 +252,40 @@ def parse_csdn(data):
     return result
 
 
-def parse_douban(data):
-    data = data['data']
-    koubei = parse_common(data[0])
-    beimei = parse_common(data[1])
-    return koubei, beimei
+async def parse_douban_movie(data):
+   
+ 
+    def get_numbers(text: str | None) -> int:
+        """从字符串中提取数字，无数字/入参为空返回10000000"""
+        if not text:
+            return 10000000
+        regex = re.compile(r"\d+")
+        match = regex.search(text)
+        return int(match.group(0)) if match else 10000000
+
+ # 加载HTML并解析（pyquery和cheerio的选择器语法完全一致）
+    data = pq(data)
+    list_dom = data(".article tr.item")
+    result: List[Dict[str, Any]] = []
+    
+    # 遍历所有电影项，还原原代码的字段提取逻辑
+    for item in list_dom:
+        dom = pq(item)
+        # 提取各字段，完全对齐原TS代码的逻辑
+        detail_url = dom("a").attr("href") or ""
+        score_text = dom(".rating_nums").text() or "0.0"
+        subject_id = str(get_numbers(detail_url))
+        
+        # 构造单条电影数据，字段和原TS的App.HotListItem完全一致
+        movie_item = {
+            "hot_label": re.sub(r'\s+', ' ', dom(".pl2 a").text()).strip(),
+            "hot_value": str(get_numbers(dom("span.pl").text())),
+            "hot_url": detail_url
+        }
+        result.append(movie_item)
+    result.sort(key=lambda x: int(x["hot_value"]), reverse=True)
+    # 返回成功响应（和原TS的NextResponse.json一致）
+    return result
 
 
 def parse_openeye(data):
@@ -505,3 +537,43 @@ def parse_linuxdo(data):
         })
     result.sort(key=lambda x: x["hot_value"], reverse=True)
     return result
+
+
+async def parse_dongchedi(data):
+    doc = pq(data)
+    # 精准定位目标项：li包含p.line-1且有a[href]，保留原有核心定位逻辑
+    items = doc('li:has(p.line-1) a[href]').items()
+    result = []
+
+    for a in items:
+        href = a.attr("href")
+        if not href:
+            continue
+
+        # 核心修复1：处理city_name=undefined —— 直接移除该无效参数（比替换更通用）
+        # 正则：匹配&city_name=undefined（含前面的&），直接删除，不影响其他参数
+        href_fixed = re.sub(r'&city_name=undefined', '', href)
+        # 兼容：如果参数在开头（极少情况），匹配?city_name=undefined并替换为?
+        href_fixed = re.sub(r'\?city_name=undefined', '?', href_fixed)
+
+        # 核心修复2：补全绝对URL，解决拼接少/的问题（先strip再判断）
+        href_fixed = href_fixed.strip()
+        if href_fixed.startswith(("http://", "https://")):
+            full_url = href_fixed
+        else:
+            # 先移除开头所有/，再拼接根域名+单/，避免出现//或无/的情况
+            full_url = f"https://www.dongchedi.com/{href_fixed.lstrip('/')}"
+
+        # 提取标题：保留原有稳定的提取逻辑，兜底处理
+        parent_div = a.parent("div")
+        title_elem = parent_div.find("p.line-1") or a.closest("li").find("p.line-1")
+        title = title_elem.text().strip() if title_elem else a.text().strip()
+        title = re.sub(r'\s+', ' ', title).strip()  # 合并多余空白
+
+        # 有效数据才加入结果
+        if title and full_url:
+            result.append({"hot_label": title, "hot_url": full_url,"hot_value":'0'})
+
+    return {"懂车帝": result}
+    
+    

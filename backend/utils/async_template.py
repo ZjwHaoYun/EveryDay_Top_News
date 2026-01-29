@@ -78,7 +78,6 @@ async def async_fetch(
             final_headers ={**COMMON_HEADERS}
             if headers:
                 final_headers.update(headers)
-            print(final_headers)
             # 发送GET请求
             resp = await session.get(
                 url,

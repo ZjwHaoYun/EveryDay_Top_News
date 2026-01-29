@@ -452,3 +452,364 @@ NoneType: None
 2026-01-28 16:54:30,067 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
 2026-01-28 16:54:30,069 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930B530>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
 2026-01-28 16:54:30,088 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:00:00,090 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930A000>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:00:00,111 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:00:00,840 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC9309F10>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:00:00,859 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:03:15,918 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930B530>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:03:15,940 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:03:15,946 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC9309F10>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:03:15,962 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:03:20,930 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930A3F0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:03:20,950 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:03:20,952 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930B830>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:03:20,976 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:03:30,851 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC9308410>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:03:30,871 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:03:30,875 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930B110>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:03:30,896 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:04:18,693 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC9309C40>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:04:18,713 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:04:18,718 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930AD50>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:04:18,738 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-28 18:04:45,336 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EAC930A3F0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-28 18:04:45,360 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 07:52:32,336 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001FD73888FB0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 07:52:32,340 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共9个，每批并发5个
+2026-01-29 07:52:32,341 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 07:52:35,398 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 07:52:35,398 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 07:52:35,398 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 07:52:35,398 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 07:52:35,398 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 07:52:35,398 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.51秒执行下一批
+2026-01-29 07:52:37,905 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共4个
+2026-01-29 07:52:43,793 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 07:52:43,793 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 07:52:43,794 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 07:52:43,794 - MyApp - ERROR - crawler_executor.py:61 - 爬虫get_zhihu_data执行失败：Expecting value: line 1 column 1 (char 0)
+NoneType: None
+2026-01-29 07:52:43,794 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合8个站点的热点数据
+2026-01-29 07:53:20,189 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001FD739E0E00>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 07:53:20,207 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 07:54:51,407 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001FD739E37D0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 07:54:51,424 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 07:55:02,168 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001FD739E3740>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 07:55:02,186 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 07:55:28,819 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001FD739E3500>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 07:55:28,834 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共9个，每批并发5个
+2026-01-29 07:55:28,835 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 07:55:32,450 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 07:55:32,450 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 07:55:32,450 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 07:55:32,452 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 07:55:32,452 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 07:55:32,455 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.72秒执行下一批
+2026-01-29 07:55:35,171 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共4个
+2026-01-29 07:55:39,596 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 07:55:39,598 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 07:55:39,598 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 07:55:39,598 - MyApp - ERROR - crawler_executor.py:61 - 爬虫get_zhihu_data执行失败：Expecting value: line 1 column 1 (char 0)
+NoneType: None
+2026-01-29 07:55:39,598 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合8个站点的热点数据
+2026-01-29 07:56:37,294 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000002B8968D8E30>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 07:56:37,306 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共9个，每批并发5个
+2026-01-29 07:56:37,306 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 07:56:39,706 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 07:56:39,706 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 07:56:39,706 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 07:56:39,706 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 07:56:39,706 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 07:56:39,706 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.53秒执行下一批
+2026-01-29 07:56:42,246 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共4个
+2026-01-29 07:56:45,742 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 07:56:45,742 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 07:56:45,742 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 07:56:45,742 - MyApp - ERROR - crawler_executor.py:61 - 爬虫get_zhihu_data执行失败：Expecting value: line 1 column 1 (char 0)
+NoneType: None
+2026-01-29 07:56:45,742 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合8个站点的热点数据
+2026-01-29 08:00:01,869 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x00000257625E9B80>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 08:00:01,889 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 08:32:48,393 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EE08658C20>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 08:32:48,414 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 08:32:48,419 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EE0865BC20>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 08:32:48,437 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 08:32:56,625 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001EE08658A40>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 08:32:56,637 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共9个，每批并发5个
+2026-01-29 08:32:56,637 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 08:33:00,095 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 08:33:00,095 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 08:33:00,095 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 08:33:00,095 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 08:33:00,095 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 08:33:00,095 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.15秒执行下一批
+2026-01-29 08:33:02,260 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共4个
+2026-01-29 08:33:06,064 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 08:33:06,064 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 08:33:06,064 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 08:33:06,064 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 08:33:06,064 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合9个站点的热点数据
+2026-01-29 08:38:40,006 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001A0D4B98C80>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 08:38:40,018 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共9个，每批并发5个
+2026-01-29 08:38:40,018 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 08:38:43,195 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 08:38:43,195 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 08:38:43,195 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 08:38:43,195 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 08:38:43,195 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 08:38:43,195 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.78秒执行下一批
+2026-01-29 08:38:45,978 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共4个
+2026-01-29 08:38:50,993 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 08:38:50,993 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 08:38:50,993 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 08:38:50,993 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 08:38:50,993 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合9个站点的热点数据
+2026-01-29 08:39:23,034 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000001A0D4BC00B0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 08:39:23,045 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共9个，每批并发5个
+2026-01-29 08:39:23,046 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 08:39:25,179 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 08:39:25,179 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 08:39:25,179 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 08:39:25,179 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 08:39:25,179 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 08:39:25,179 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.34秒执行下一批
+2026-01-29 08:39:27,512 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共4个
+2026-01-29 08:39:31,762 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 08:39:31,762 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 08:39:31,762 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 08:39:31,762 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 08:39:31,762 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合9个站点的热点数据
+2026-01-29 09:41:41,814 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000002520DFA8F80>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 09:41:41,826 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共9个，每批并发5个
+2026-01-29 09:41:41,827 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 09:41:44,713 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 09:41:44,713 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 09:41:44,713 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 09:41:44,713 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 09:41:44,713 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 09:41:44,713 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.07秒执行下一批
+2026-01-29 09:41:46,792 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共4个
+2026-01-29 09:41:51,192 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 09:41:51,192 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 09:41:51,192 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 09:41:51,192 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 09:41:51,192 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合9个站点的热点数据
+2026-01-29 09:42:55,046 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000017A31E01E50>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 09:42:55,059 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共10个，每批并发5个
+2026-01-29 09:42:55,060 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 09:42:57,343 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 09:42:57,343 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 09:42:57,343 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 09:42:57,343 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 09:42:57,343 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 09:42:57,343 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.45秒执行下一批
+2026-01-29 09:42:59,808 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共5个
+2026-01-29 09:43:02,829 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 09:43:02,830 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 09:43:02,830 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 09:43:02,830 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 09:43:02,830 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点小红书，共10条热点数据
+2026-01-29 09:43:02,830 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合10个站点的热点数据
+2026-01-29 09:46:12,103 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x000002BC3B251D90>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 09:46:12,116 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共10个，每批并发5个
+2026-01-29 09:46:12,117 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 09:46:14,394 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 09:46:14,394 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 09:46:14,394 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 09:46:14,394 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 09:46:14,394 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 09:46:14,394 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.96秒执行下一批
+2026-01-29 09:46:17,360 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共5个
+2026-01-29 09:46:20,578 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 09:46:20,578 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 09:46:20,578 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 09:46:20,578 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 09:46:20,578 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点小红书，共10条热点数据
+2026-01-29 09:46:20,578 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合10个站点的热点数据
+2026-01-29 10:00:33,022 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x00000225B5AE1B80>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 10:00:33,036 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 10:00:33,047 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x00000225B5AE3AD0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 10:00:33,062 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 10:01:02,139 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000023146C459D0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 10:01:02,150 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共10个，每批并发5个
+2026-01-29 10:01:02,150 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 10:01:04,683 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 10:01:04,683 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 10:01:04,683 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 10:01:04,683 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 10:01:04,683 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 10:01:04,683 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.88秒执行下一批
+2026-01-29 10:01:07,577 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共5个
+2026-01-29 10:01:10,462 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 10:01:10,462 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 10:01:10,462 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 10:01:10,462 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 10:01:10,462 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点豆瓣电影，共10条热点数据
+2026-01-29 10:01:10,462 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合10个站点的热点数据
+2026-01-29 11:34:22,030 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117F9C70>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 11:34:22,039 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共11个，每批并发5个
+2026-01-29 11:34:22,040 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 11:34:24,917 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 11:34:24,917 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 11:34:24,917 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 11:34:24,917 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 11:34:24,917 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 11:34:24,917 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.87秒执行下一批
+2026-01-29 11:34:27,792 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共5个
+2026-01-29 11:34:31,227 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 11:34:31,227 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 11:34:31,227 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 11:34:31,227 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 11:34:31,227 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点豆瓣电影，共10条热点数据
+2026-01-29 11:34:31,227 - MyApp - INFO - crawler_executor.py:80 - 第2批爬虫执行完成，延迟2.77秒执行下一批
+2026-01-29 11:34:34,008 - MyApp - INFO - crawler_executor.py:49 - 执行第3批爬虫，共1个
+2026-01-29 11:34:37,451 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点懂车帝，共10条热点数据
+2026-01-29 11:34:37,451 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合11个站点的热点数据
+2026-01-29 11:34:55,644 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11865700>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 11:34:55,664 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 11:52:19,244 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11866990>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 11:52:19,274 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 11:52:19,282 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118662A0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 11:52:19,303 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 12:00:00,083 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11865940>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:00:00,099 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 12:29:57,831 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118646B0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:29:57,843 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共11个，每批并发5个
+2026-01-29 12:29:57,843 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 12:30:01,148 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 12:30:01,148 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 12:30:01,148 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 12:30:01,148 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 12:30:01,148 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 12:30:01,148 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.19秒执行下一批
+2026-01-29 12:30:03,329 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共5个
+2026-01-29 12:30:33,348 - MyApp - ERROR - crawler_executor.py:61 - 爬虫get_csdn_data执行失败：tuple indices must be integers or slices, not str
+NoneType: None
+2026-01-29 12:30:33,348 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 12:30:33,348 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 12:30:33,349 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 12:30:33,349 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点豆瓣电影，共10条热点数据
+2026-01-29 12:30:33,349 - MyApp - INFO - crawler_executor.py:80 - 第2批爬虫执行完成，延迟2.47秒执行下一批
+2026-01-29 12:30:35,812 - MyApp - INFO - crawler_executor.py:49 - 执行第3批爬虫，共1个
+2026-01-29 12:30:38,662 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点懂车帝，共10条热点数据
+2026-01-29 12:30:38,662 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合10个站点的热点数据
+2026-01-29 12:30:51,514 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117F9AF0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:30:51,536 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 12:30:51,536 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117F9490>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:30:51,565 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 12:30:58,052 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117F9DC0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:30:58,071 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 12:33:35,096 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117FB980>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:33:35,115 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 12:33:35,119 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117F9850>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:33:35,141 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 12:33:42,966 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117FA480>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 12:33:42,976 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共11个，每批并发5个
+2026-01-29 12:33:42,976 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 12:33:45,268 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 12:33:45,268 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 12:33:45,268 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 12:33:45,268 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 12:33:45,268 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 12:33:45,268 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.01秒执行下一批
+2026-01-29 12:33:47,283 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共5个
+2026-01-29 12:33:51,057 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 12:33:51,057 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 12:33:51,057 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 12:33:51,057 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 12:33:51,057 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点豆瓣电影，共10条热点数据
+2026-01-29 12:33:51,057 - MyApp - INFO - crawler_executor.py:80 - 第2批爬虫执行完成，延迟2.51秒执行下一批
+2026-01-29 12:33:53,563 - MyApp - INFO - crawler_executor.py:49 - 执行第3批爬虫，共1个
+2026-01-29 12:33:56,281 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点懂车帝，共10条热点数据
+2026-01-29 12:33:56,281 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合11个站点的热点数据
+2026-01-29 15:32:40,306 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11823230>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:32:40,325 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:32:40,336 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A117FB140>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:32:40,359 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:44:21,593 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118202C0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:44:21,619 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:44:21,625 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118222A0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:44:21,645 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:55:18,379 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11820F20>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:55:18,401 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:55:18,404 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11823620>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:55:18,422 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:55:30,184 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11820A40>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:55:30,206 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:55:30,212 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822180>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:55:30,234 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:58:32,342 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118221E0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:58:32,354 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:58:47,299 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822D80>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:58:47,320 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 15:58:56,531 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11821A00>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 15:58:56,551 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:03:59,847 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822B40>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:03:59,861 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:04:38,279 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822E70>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:04:38,300 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:05:45,766 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11823080>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:05:45,788 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:09:17,867 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11821AF0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:09:17,888 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:09:18,774 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11823D70>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:09:18,794 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:12:15,082 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118214F0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:12:15,104 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:12:16,766 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11820560>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:12:16,786 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:12:17,166 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11820B30>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:12:17,188 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:12:18,935 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11823470>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:12:18,958 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:12:18,960 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11823C50>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:12:18,978 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:12:54,028 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822B40>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:12:54,049 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:12:54,055 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822A50>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:12:54,072 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:13:19,671 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822270>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:13:19,691 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:13:19,698 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11823710>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:13:19,719 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:13:21,186 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822E70>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:13:21,206 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:16:41,383 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118218E0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:16:41,399 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:16:41,411 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11821220>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:16:41,432 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:23:25,832 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11821BE0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:23:25,864 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:23:25,867 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118221E0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:23:25,882 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:23:46,385 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118207A0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:23:46,406 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:23:46,406 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118217C0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:23:46,433 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:38:27,100 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822B40>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:38:27,117 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:38:27,124 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A118230B0>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:38:27,147 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:45:01,863 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11821220>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:45:01,886 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:45:01,891 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822240>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:45:01,909 - MyApp - INFO - crawler_executor.py:34 - 从redis中获取数据
+2026-01-29 16:47:19,539 - MyApp - INFO - redis.py:14 - redis_client:<redis.client.Redis(<redis.connection.ConnectionPool(<redis.connection.Connection(db=0,username=None,password=None,socket_timeout=None,encoding=utf-8,encoding_errors=strict,decode_responses=True,retry_on_error=[],retry=<redis.retry.Retry object at 0x0000028A11822300>,health_check_interval=0,client_name=None,lib_name=redis-py,lib_version=6.4.0,redis_connect_func=None,credential_provider=None,protocol=2,host=10.199.197.150,port=6380,socket_connect_timeout=None,socket_keepalive=None,socket_keepalive_options=None)>)>)>
+2026-01-29 16:47:19,550 - MyApp - INFO - crawler_executor.py:44 - 开始执行所有爬虫，共11个，每批并发5个
+2026-01-29 16:47:19,550 - MyApp - INFO - crawler_executor.py:49 - 执行第1批爬虫，共5个
+2026-01-29 16:47:23,151 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点澎湃新闻，共20条热点数据
+2026-01-29 16:47:23,151 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点今日头条，共50条热点数据
+2026-01-29 16:47:23,151 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点百度，共51条热点数据
+2026-01-29 16:47:23,151 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点掘金，共50条热点数据
+2026-01-29 16:47:23,151 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点白鲸出海，共10条热点数据
+2026-01-29 16:47:23,151 - MyApp - INFO - crawler_executor.py:80 - 第1批爬虫执行完成，延迟2.11秒执行下一批
+2026-01-29 16:47:25,263 - MyApp - INFO - crawler_executor.py:49 - 执行第2批爬虫，共5个
+2026-01-29 16:47:28,665 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点csdn，共25条热点数据
+2026-01-29 16:47:28,665 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点acfun，共30条热点数据
+2026-01-29 16:47:28,665 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点第一财经，共10条热点数据
+2026-01-29 16:47:28,665 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点知乎，共30条热点数据
+2026-01-29 16:47:28,665 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点豆瓣电影，共10条热点数据
+2026-01-29 16:47:28,665 - MyApp - INFO - crawler_executor.py:80 - 第2批爬虫执行完成，延迟2.18秒执行下一批
+2026-01-29 16:47:30,864 - MyApp - INFO - crawler_executor.py:49 - 执行第3批爬虫，共1个
+2026-01-29 16:47:32,398 - MyApp - INFO - crawler_executor.py:75 - 成功爬取站点懂车帝，共10条热点数据
+2026-01-29 16:47:32,398 - MyApp - INFO - crawler_executor.py:83 - 所有爬虫执行完成，最终聚合11个站点的热点数据

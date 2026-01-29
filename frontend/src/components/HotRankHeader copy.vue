@@ -2,6 +2,7 @@
   <div class="hot-rank-header">
     <!-- 左侧Logo+标题 -->
     <div class="header-left">
+      <!-- 红色图标（替换原ElIcon） -->
       <img 
         class="header-logo" 
         src="/ico/favicon.png"  
@@ -15,13 +16,13 @@
       </div>
     </div>
 
-    <!-- 中间时间：公历时间 + 干支农历+星期（一行） -->
+    <!-- 中间时间 -->
     <div class="header-middle">
       <p class="current-time">{{ currentTime }}</p>
-      <p class="lunar-weekday">{{ lunarDate }} {{ getWeekday() }}</p>
+      <p class="weekday">{{ getWeekday() }}</p>
     </div>
 
-    <!-- 右侧刷新按钮 -->
+    <!-- 右侧工具 -->
     <div class="header-right">
       <el-button 
         icon="Refresh" 
@@ -35,23 +36,19 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue'
+import { defineProps, defineEmits, ref, onMounted, onUnmounted } from 'vue'
 import { ElButton } from 'element-plus'
 import { Refresh } from '@element-plus/icons-vue'
 
-// 接收父组件参数
+// 接收外部传入的参数
 const props = defineProps({
-  currentTime: { 
-    type: String, 
-    required: true 
+  currentTime: {
+    type: String,
+    required: true
   },
-  lunarDate: { 
-    type: String, 
-    required: true 
-  },
-  isLoading: { 
-    type: Boolean, 
-    default: false 
+  isLoading: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -61,7 +58,7 @@ const handleRefresh = () => {
   emit('refresh')
 }
 
-// 获取当前星期几
+// 计算当前星期几
 const getWeekday = () => {
   const weekList = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
   return weekList[new Date().getDay()]
@@ -69,12 +66,6 @@ const getWeekday = () => {
 </script>
 
 <style scoped>
-/* 统一微软雅黑字体 */
-* {
-  font-family: "Microsoft YaHei", "微软雅黑", sans-serif !important;
-}
-
-/* 头部容器 */
 .hot-rank-header {
   display: flex;
   align-items: center;
@@ -83,6 +74,7 @@ const getWeekday = () => {
   margin-bottom: 24px;
   border-bottom: 1px solid #e5e7eb;
   width: 100%;
+  font-family: "Microsoft YaHei", sans-serif;
 }
 
 /* 左侧Logo+标题 */
@@ -91,8 +83,8 @@ const getWeekday = () => {
   align-items: center;
   gap: 12px;
 }
-.header-logo { 
-  border-radius: 4px; 
+.header-logo {
+  border-radius: 4px; /* 可选：让图标更圆润 */
 }
 .title-group {
   display: flex;
@@ -111,7 +103,7 @@ const getWeekday = () => {
   margin: 0;
 }
 
-/* 中间时间区域 */
+/* 中间时间 */
 .header-middle {
   display: flex;
   flex-direction: column;
@@ -122,24 +114,21 @@ const getWeekday = () => {
 .current-time {
   font-size: 14px;
   margin: 0;
-  font-weight: 500;
 }
-.lunar-weekday {
+.weekday {
   font-size: 12px;
   margin: 0;
-  color: #909399;
 }
 
 /* 右侧刷新按钮 */
-.header-right { 
-  display: flex; 
-  align-items: center; 
+.header-right {
+  display: flex;
+  align-items: center;
 }
 .refresh-btn {
   color: #666;
-  font-size: 14px;
-}
-.refresh-btn:hover { 
-  color: #f56c6c; 
+  &:hover {
+    color: #f56c6c;
+  }
 }
 </style>

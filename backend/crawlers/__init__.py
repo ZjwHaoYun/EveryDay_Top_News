@@ -7,6 +7,8 @@ from .csdn import get_csdn_data
 from .acFun import get_acfun_data
 from .diyicaijing import get_diyicaijing_data
 from .zhihu import  get_zhihu_data
+from .douban_movie import get_douban_movie_data
+from .dongchedi import get_dongchedi_data
 
 # 汇总所有异步爬虫函数（主文件直接用这个列表）
 ALL_ASYNC_CRAWL_FUNCS = [
@@ -18,6 +20,9 @@ ALL_ASYNC_CRAWL_FUNCS = [
     get_csdn_data,
     get_acfun_data,
     get_diyicaijing_data,
-    get_zhihu_data
+    get_zhihu_data,
+    get_douban_movie_data,
+    get_dongchedi_data
+  
 ]
 

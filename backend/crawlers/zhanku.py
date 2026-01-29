@@ -25,7 +25,7 @@ async def get_zhanku_data():
     }
     data =  await async_fetch(crawl_name="zhanku",url= url,params=params)
     
-    return data
+    return {"知乎":data}
 
 
 if __name__ == "__main__":

@@ -7,7 +7,7 @@ import axios from 'axios'
 // 创建 axios 实例（同一 FastAPI 后端，固定 baseURL，后续所有功能接口共用）
 const request = axios.create({
   baseURL: 'http://10.195.157.17:8001/api', // 同一 FastAPI 后端的统一接口前缀
-  timeout: 10000, // 延长超时时间（适配更多功能接口，避免短时间内超时）
+  timeout: 30000, // 延长超时时间（适配更多功能接口，避免短时间内超时）
   headers: {
     'Content-Type': 'application/json;charset=utf-8'
   }
