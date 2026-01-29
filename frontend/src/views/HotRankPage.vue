@@ -76,6 +76,17 @@
               <span class="hot-value" v-if="item.hot_value && item.hot_value !== '0'">{{ item.hot_value }}</span>
             </div>
           </div>
+          <!-- 卡片底部更新信息 + 刷新图标 -->
+          <div class="card-footer" :class="{ 'footer-loading': platformLoading[platform] }">
+            <span class="update-time">{{ formatTimeAgo(platformUpdateTime[platform]) }}</span>
+            <el-icon 
+              class="refresh-icon" 
+              @click.stop="refreshSinglePlatform(platform)"
+              :loading="platformLoading[platform]"
+            >
+              <Refresh />
+            </el-icon>
+          </div>
         </div>
       </el-card>
     </div>
@@ -85,7 +96,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import { ElCard, ElIcon, ElMessage } from 'element-plus'
-import { Warning } from '@element-plus/icons-vue'
+import { Warning, Refresh } from '@element-plus/icons-vue'
 import { getTopNewsList } from "@/api/news"
 import HotRankHeader from '@/components/HotRankHeader.vue'
 import { Lunar, Solar } from 'lunar-javascript'
@@ -96,6 +107,9 @@ const currentTime = ref('')
 const isLoading = ref(false)
 const lunarDate = ref('')
 const lastRefreshTime = ref(Date.now())
+// 各平台单独刷新时间 + 单独加载状态
+const platformUpdateTime = ref({})
+const platformLoading = ref({})
 
 // 平台Logo映射
 const platformLogoMap = ref({
@@ -124,7 +138,7 @@ const platformHotTagMap = ref({
   抖音: '热点榜'
 })
 
-// 卡片右上角标签样式映射（匹配参考图）
+// 卡片右上角标签样式映射
 const tagClassMap = ref({
   '热搜榜': 'tag-green',
   '实时热榜': 'tag-red',
@@ -216,18 +230,65 @@ const updateCurrentTime = () => {
   lunarDate.value = getLunarDate()
 }
 
+// 替换为你提供的 时间差格式化函数
+const formatTimeAgo = (targetTime) => {
+  const now = Date.now()
+  const diffMs = now - targetTime
+  const diffSeconds = Math.floor(diffMs / 1000)
+
+  if (diffSeconds < 60) {
+    return '刚刚更新'
+  } else if (diffSeconds < 3600) {
+    const minutes = Math.floor(diffSeconds / 60)
+    return `${minutes}分钟前更新`
+  } else if (diffSeconds < 86400) {
+    const hours = Math.floor(diffSeconds / 3600)
+    const minutes = Math.floor((diffSeconds % 3600) / 60)
+    return `${hours}小时${minutes}分钟前更新`
+  } else {
+    const date = new Date(targetTime)
+    return `${date.getFullYear()}-${(date.getMonth()+1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')} 更新`
+  }
+}
+
+// 批量刷新所有平台
 const refreshHotRank = async () => {
   try {
     isLoading.value = true
     const res = await getTopNewsList()
     hotData.value = res.data.hot_topics
     lastRefreshTime.value = Date.now()
+    // 批量更新各平台刷新时间
+    Object.keys(res.data.hot_topics).forEach(platform => {
+      platformUpdateTime.value[platform] = Date.now()
+    })
     ElMessage.success('热榜刷新成功')
   } catch (err) {
     console.error('获取热榜失败:', err)
     ElMessage.error('加载热榜失败，请稍后重试')
   } finally {
     isLoading.value = false
+  }
+}
+
+// 单独刷新某个平台热榜
+const refreshSinglePlatform = async (platform) => {
+  try {
+    platformLoading.value[platform] = true
+    // 若有单平台接口，可替换为专属接口，此处临时调用批量接口提取数据
+    const res = await getTopNewsList()
+    if (res.data.hot_topics[platform]) {
+      hotData.value[platform] = res.data.hot_topics[platform]
+      platformUpdateTime.value[platform] = Date.now()
+      ElMessage.success(`${platform}热榜刷新成功`)
+    } else {
+      ElMessage.warning(`${platform}暂无热榜数据`)
+    }
+  } catch (err) {
+    console.error(`${platform}刷新失败:`, err)
+    ElMessage.error(`${platform}热榜刷新失败，请稍后重试`)
+  } finally {
+    platformLoading.value[platform] = false
   }
 }
 
@@ -365,13 +426,20 @@ const goToHotDetail = (item) => {
   color: #606266;
 }
 
-.card-body { padding: 0; }
+/* === 关键修改：移除固定高度，使用 flex 自动填充 === */
+.card-body { 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* 删除 height: calc(100% - 36px); */
+}
 
 .hot-list {
-  max-height: 300px;
+  flex: 1; /* 占满剩余空间 */
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: thin;
+  max-height: 260px; /* 保留最大高度限制 */
 }
 .hot-list::-webkit-scrollbar { width: 3px; }
 .hot-list::-webkit-scrollbar-thumb {
@@ -427,6 +495,38 @@ const goToHotDetail = (item) => {
   flex-shrink: 0;
 }
 
+/* === 关键修改：底部自动吸附，不占额外空间 === */
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 12px;
+  font-size: 12px;
+  color: #909399;
+  border-top: 1px solid #f5f7fa;
+  background-color: #fafbfc;
+  /* 移除圆角（避免与 card-body 冲突） */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  /* 关键：自动推到底部 */
+  margin-top: auto;
+  /* 固定高度确保一致性 */
+  height: 32px;
+}
+/* 刷新图标样式 */
+.refresh-icon {
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+.refresh-icon:hover {
+  color: #409eff;
+}
+/* 加载状态下底部样式微调 */
+.footer-loading .refresh-icon {
+  color: #409eff;
+}
+
 /* 响应式 */
 @media (max-width: 1199px) {
   .card-container { grid-template-columns: repeat(3, minmax(240px, 1fr)); }
@@ -437,6 +537,12 @@ const goToHotDetail = (item) => {
 @media (max-width: 600px) {
   .card-container { grid-template-columns: 1fr; }
   .hot-rank-page { padding: 0 15px; }
-  .hot-list { max-height: 280px; }
+  .hot-list { max-height: 240px; }
+  .card-footer { 
+    padding: 4px 10px; 
+    font-size: 11px; 
+    height: 28px; /* 适配小屏 */
+  }
+  .refresh-icon { font-size: 13px; }
 }
 </style>
