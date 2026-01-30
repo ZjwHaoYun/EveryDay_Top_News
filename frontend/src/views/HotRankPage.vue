@@ -208,8 +208,8 @@ onMounted(() => {
   updateCurrentTime()
   lunarDate.value = getLunarDate()
   timeTimer = setInterval(updateCurrentTime, 1000)
-  refreshHotRank()
-  scheduleDailyRefresh()
+  //refreshHotRank()
+  scheduleDailyRefresh() //仅保留这一行，负责初始化+定时
 })
 
 onUnmounted(() => {
